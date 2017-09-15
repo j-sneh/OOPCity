@@ -1,20 +1,32 @@
 package oopCity;
 
-import java.util.*;
+import java.util.Scanner;
 
-public class City {
-	private ArrayList<Human> people;
-	Random r = new Random();
-	
-	public City (Human... startingPeople){
-		people = new ArrayList<Human>();
-		for (Human human : startingPeople){
-			people.add(human);
-		}
-	}
-	
-	public City() {
-		people = new ArrayList<Human>();
-	}
-	
+public class City extends Location {
+
+    @Override
+    public void menu(Scanner input) {
+
+    }
+
+    @Override
+    protected void settings(Scanner input) {
+
+    }
+
+    @Override
+    protected void guide() {
+
+    }
+
+    @Override
+    protected void add(Scanner input) {
+
+    }
+
+    @Override
+    public String toString() {
+        return "test";
+    }
+
 }

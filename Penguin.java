@@ -4,10 +4,7 @@ public class Penguin extends Animal{
 	public Penguin(String pName){
 		name = pName;
 	}
-	
-	public String getName(){
-		return name;
-	}
+
 	public void speak(){
 		if (name.equalsIgnoreCase("pingu")){
 			System.out.println("Pingu goes NOOT NOOT");
